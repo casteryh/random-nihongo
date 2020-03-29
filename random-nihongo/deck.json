@@ -857,6 +857,20 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "兼ねない",
+                "かねない<div>（動詞の連用形の下に付いて）…しないとはいえない。…するかもしれない。「あいつならやり―◦ない」「秘密をもらし―◦ない」<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zH$fbUZLb6",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
