@@ -871,6 +871,76 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>踏ん切り</div>",
+                "「―をつける」<div><div><div>思い切って決心すること。決断。「なかなか―がつかない」<br><div><br></div></div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b%Vfv:q%KM",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "秩序",
+                "ちつじょ",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "N3O^R8Q|DG",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "向上する",
+                "<div>こうじょう</div>【改善する】【進歩する】<div><span style=\"font-weight: 600;\">▸&nbsp;</span>向上させる&nbsp;</div><div>【地位などを】raise&nbsp;</div><div>【能力などを】improve.<div><span style=\"font-weight: 600;\">▸&nbsp;</span>製品の質を向上させる<div><span style=\"font-weight: 600;\">▸&nbsp;</span>女性の社会的地位が向上した&nbsp;</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "AU({IIH(]T",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "著しく",
+                "いちじるしく",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "Pil>0+{!2:",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "外堀を埋める",
+                "（そとぼり）<div>ある目的を達成するために、まず周辺にある障害から取り除く。</div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "fV{YIxvak+",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
