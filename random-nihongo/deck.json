@@ -1,0 +1,862 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "53eeb94a-71ac-11ea-987d-acde48001122",
+    "deck_config_uuid": "53eebc06-71ac-11ea-987d-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "53eebc06-71ac-11ea-987d-acde48001122",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1584211002946",
+    "name": "random-nihongo",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Add Reverse",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (optional reversed card)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ひっかき回す",
+                "引っ掻き回す"
+            ],
+            "flags": 0,
+            "guid": "ACm(d8<H__",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "罪滅ぼし",
+                "expiation/atonement"
+            ],
+            "flags": 0,
+            "guid": "nJ{D)@TmrD",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "贖罪",
+                "しょくざい"
+            ],
+            "flags": 0,
+            "guid": "Qw/D+nS(Pi",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "漂う",
+                "ただよう"
+            ],
+            "flags": 0,
+            "guid": "dNJTJB:/oG",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "躊躇う",
+                "ためらう"
+            ],
+            "flags": 0,
+            "guid": "pqn-~sLq(y",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "聳える",
+                "そびえる"
+            ],
+            "flags": 0,
+            "guid": "r|[?!4&j(R",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "聳え立つ",
+                "そびえたつ"
+            ],
+            "flags": 0,
+            "guid": "K7=.tF7IP.",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "豊穣",
+                "ほうじょう"
+            ],
+            "flags": 0,
+            "guid": "L5U`xtlS[5",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "築く",
+                "きずく"
+            ],
+            "flags": 0,
+            "guid": "Ma!8B:PJ[8",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "容易い",
+                "たやすい"
+            ],
+            "flags": 0,
+            "guid": "DR9E*bSXB~",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "善処する",
+                "ぜんしょする"
+            ],
+            "flags": 0,
+            "guid": "d.ww`B=vOW",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "引き摺る",
+                "ひきずる<div>捨てきれずに今なおもちつづける。いつまでも忘れないでいる。</div><div>地面などをすって引いて行く、など</div><div>（受け身の形で）影響される。</div><div><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xTqOI~Y0S)",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "劣る",
+                "おとる"
+            ],
+            "flags": 0,
+            "guid": "Jr)SsMk-P%",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "負け惜しみ",
+                "自分の負けや失敗をすなおに認めないで強情をはること"
+            ],
+            "flags": 0,
+            "guid": "Qs+GyXT|4w",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "幾重",
+                "いくえ"
+            ],
+            "flags": 0,
+            "guid": "Ln.+w6jbZA",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "胸騒ぎ",
+                "むなさわぎ"
+            ],
+            "flags": 0,
+            "guid": "b)2LvfeYeA",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "引き離す",
+                "無理に離れさせる、または間を大きくあける。"
+            ],
+            "flags": 0,
+            "guid": "Pbpyrki_KZ",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "打算的",
+                "ださんてき"
+            ],
+            "flags": 0,
+            "guid": "O{jx?#BD{",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "穿つ",
+                "うがつ"
+            ],
+            "flags": 0,
+            "guid": "yD:neMj%pQ",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "境目",
+                "さかいめ<div>区切りになる所。</div><div>物事の分かれ目。</div>"
+            ],
+            "flags": 0,
+            "guid": "E0;:{4Jc*$",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分かれ目",
+                "分かれる所。<div>将来の成り行きが決定する点。</div>"
+            ],
+            "flags": 0,
+            "guid": "J&U|Or=34.",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "強いる",
+                "しいる<div><span style=\"color: rgb(26, 26, 26);\">相手の気持ちを無視してむりにさせる。</span></div><div><span style=\"color: rgb(26, 26, 26);\">むりにおしつける。</span></div><div><span style=\"color: rgb(26, 26, 26);\">強制する。</span><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Gp^G2KM4@f",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "強いて言えば",
+                "If I must say"
+            ],
+            "flags": 0,
+            "guid": "j+1p{JbAX:",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "追及",
+                "ついきゅう"
+            ],
+            "flags": 0,
+            "guid": "F>(T1ZPt~F",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "当て付ける",
+                "他にかこつけて相手の悪口や皮肉などを言う。また、皮肉な態度をとる。あてこする。<div>仲のよさを見せつける。<br></div>"
+            ],
+            "flags": 0,
+            "guid": "yhzzJ&C;+3",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "瞬く間",
+                "またたくま"
+            ],
+            "flags": 0,
+            "guid": "Glq4-[8DH-",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "嘲笑う",
+                "あざわらう"
+            ],
+            "flags": 0,
+            "guid": "Bam07c?*fk",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "バリサク",
+                "<b>baritone saxophone</b>"
+            ],
+            "flags": 0,
+            "guid": "G,<<.aF_o>",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "楽譜",
+                "がくふ"
+            ],
+            "flags": 0,
+            "guid": "My_ch|b&;?",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "無縁",
+                "むえん"
+            ],
+            "flags": 0,
+            "guid": "I`;,62#<mv",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "揉め事",
+                "もめごと<div>争いこと</div>"
+            ],
+            "flags": 0,
+            "guid": "LKZwmOo^$K",
+            "newlyAdded": false,
+            "note_model_uuid": "53f0161e-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "包む",
+                "くるむ"
+            ],
+            "flags": 0,
+            "guid": "t@(K1hvBsN",
+            "newlyAdded": false,
+            "note_model_uuid": "53f004f8-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "拗れる",
+                "<div><div>①&nbsp;関係や交渉などがもつれてうまくいかなくなる。事態がもつれる。&nbsp;&nbsp;「余計な口出しで話が－・れてしまった」</div></div><div><div>②&nbsp;病気が治らず長引く。悪化する。&nbsp;&nbsp;「しろうと療法では病気が－・れてしまう」</div></div><div><div>③&nbsp;心がねじける。ひねくれる。&nbsp;&nbsp;「癖づきし心は組糸をときたる如く、はても無く－・れて／暗夜&nbsp;一葉」</div></div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "e~27yvB;;Z",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "見透かす",
+                "<div>みすかす</div>①&nbsp; （人の胸中などを）悟って知る。みぬく。 「相手の魂胆（こんたん）を－・す」<div>②&nbsp; すかして見る。 「お種は硝子（ガラス）越に－・した／多情多恨 紅葉」</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m+x-TLQ*(O",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ぽろっと",
+                "<div><div>①&nbsp;軽いものがこぼれ落ちたり、取れたりするさま。&nbsp;&nbsp;「取っ手が－取れる」</div></div><div><div>②&nbsp;秘密にしていたことをうっかり口にするさま。&nbsp;&nbsp;「秘密を－もらす」</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mA,6ZGH&5^",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "どうあがいても",
+                "no matter what / in any way",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tWzl!^#*>r",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "枷",
+                "かせ",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cx|FT&tzik",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "罰が当たる",
+                "バチがあたる",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tjk?bireM/",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "こてんぱん",
+                "<div>＝こてんこてん</div>徹底的にやっつけるさま。やっつけられるさま。",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G/7VJ:hM$|",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "夏場",
+                "<div><div>①&nbsp;夏の<a href=\"https://www.weblio.jp/content/%E6%99%82%E6%9C%9F\">時期</a>。&nbsp;「&nbsp;－は<a href=\"https://www.weblio.jp/content/%E8%A6%B3%E5%85%89%E5%AE%A2\">観光客</a>で込む」</div></div><div><div>②&nbsp;夏を過ごすのに<a href=\"https://www.weblio.jp/content/%E9%81%A9%E3%81%97%E3%81%9F\">適した</a>場所。<a href=\"https://www.weblio.jp/content/%E5%A4%8F%E5%A0%B4%E6%89%80\">夏場所</a>。&nbsp;「<a href=\"https://www.weblio.jp/content/%E6%AF%8E%E5%B9%B4\">毎年</a>此（こ）う<a href=\"https://www.weblio.jp/content/%E4%BA%91%E3%81%86\">云う</a>－を<a href=\"https://www.weblio.jp/content/%E7%9B%AE%E4%BB%98%E3%81%91\">目付け</a>て<a href=\"https://www.weblio.jp/content/%E8%BB%A2%E4%BB%98\">転付</a>（ごろつ）いて歩いて居るんだ／<a href=\"https://www.weblio.jp/content/%E3%81%82%E3%82%81%E3%82%8A%E3%81%8B%E7%89%A9%E8%AA%9E\">あめりか物語</a>&nbsp;<a href=\"https://www.weblio.jp/content/%E8%8D%B7%E9%A2%A8\">荷風</a>」</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oI0&t;6%7X",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "トビケラ",
+                "Trichoptera 石蛾",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zKd,=UJ?0@",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "蚊",
+                "か",
+                ""
+            ],
+            "flags": 0,
+            "guid": "c%-I`A%E?:",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "贔屓（ひいき）",
+                "<span style=\"font-weight: 600;\">①</span> 気に入った人に特に目をかけ世話をすること。気に入ったものを特にかわいがること。「えこ―」「―にしている芸人」「一方だけを―する」<div><span style=\"font-weight: 600;\">②</span> 目をかけて世話してくれる人。パトロン。後援者。「御―に挨拶（あいさつ）回りをする」「―すじ」</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fFB;m?u$WM",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "乱れる",
+                "みだれる",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "v8T^k-xrd%",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "巻き舌",
+                "まきじた",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "E(5m_5p;qW",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        }
+    ]
+}
