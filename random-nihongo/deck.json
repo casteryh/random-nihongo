@@ -941,6 +941,34 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "星摘み",
+                "ほしつみ",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "w6x-6_>mwu",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "摘む",
+                "つむ",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sk.?94nkeq",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
