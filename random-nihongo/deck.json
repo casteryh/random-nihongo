@@ -969,6 +969,20 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "絵心",
+                "えごころ",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LU|/^pL>O-",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
