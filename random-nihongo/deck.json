@@ -983,6 +983,34 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "見栄え",
+                "みばえ<div>外観がよくて目たつこと</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "msu<X[c]1&",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "滑らか",
+                "なめらか",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vyq;+:d3Wz",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
