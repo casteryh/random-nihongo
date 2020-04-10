@@ -1011,6 +1011,62 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "廃れる",
+                "すたれる",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "gB7P/)75&i",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "花びら",
+                "花弁（かべん）ともいう。<div><span style=\"color: rgb(26, 26, 26);\">花冠を組み立てている一枚一枚の薄片。</span><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dwU9?Y?x0G",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "錆びる",
+                "さびる<div>1) get rusty</div><div>2) (metaphorical)&nbsp;<span style=\"color: rgb(26, 26, 26);\">能力・働きが鈍くなってだめになる。</span></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t;ad:EZ[C3",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "縫う",
+                "ぬう",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "Bv|+%v@kXk",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
