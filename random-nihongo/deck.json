@@ -1067,6 +1067,34 @@
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "直筆",
+                "じきひつ",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Qw7F<><t[Z",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "虚しい",
+                "むなしい",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ptLd{064*[",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
         }
     ]
 }
