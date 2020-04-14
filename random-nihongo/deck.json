@@ -1269,6 +1269,21 @@
             "newlyAdded": false,
             "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "目障り",
+                "めざわり",
+                "<span style=\"font-weight: 600;\">①</span> それが邪魔になって，他の物が見えない・こと（さま）。また，そのもの。「展望の―になる」<div><span style=\"font-weight: 600;\">②</span> 見ると不愉快になること。また，そのようなさまやそのようなもの。「―な存在」「―にならないようにおとなしくする」</div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "m>o0GHkYl]",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
         }
     ]
 }
