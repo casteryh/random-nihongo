@@ -55,7 +55,7 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [],
-    "mid": "1584211002946",
+    "mid": "1586838502808",
     "name": "random-nihongo",
     "note_models": [
         {
@@ -246,6 +246,94 @@
                 },
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{#Add Reverse}}{{Back}}{{/Add Reverse}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Imi",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Add Reverse",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Imi-Optional-Reversed",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br>\n{{Imi}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n<br>\n{{Imi}}",
                     "bafmt": "",
                     "bqfmt": "",
                     "did": null,
@@ -668,7 +756,7 @@
             "data": "",
             "fields": [
                 "包む",
-                "くるむ"
+                "くるむ<div>布・紙などでおおって，中に入れる。「体をタオルで―・む」<br></div><div>巻くように覆うので、一部は覆われずに残ることもある。柔らかい印象がする言葉です。</div><div>「つつむ」との違いは注意しべき。</div>"
             ],
             "flags": 0,
             "guid": "t@(K1hvBsN",
@@ -681,7 +769,7 @@
             "data": "",
             "fields": [
                 "拗れる",
-                "<div><div>①&nbsp;関係や交渉などがもつれてうまくいかなくなる。事態がもつれる。&nbsp;&nbsp;「余計な口出しで話が－・れてしまった」</div></div><div><div>②&nbsp;病気が治らず長引く。悪化する。&nbsp;&nbsp;「しろうと療法では病気が－・れてしまう」</div></div><div><div>③&nbsp;心がねじける。ひねくれる。&nbsp;&nbsp;「癖づきし心は組糸をときたる如く、はても無く－・れて／暗夜&nbsp;一葉」</div></div>",
+                "<div><div>こじれる</div><div>①&nbsp;関係や交渉などがもつれてうまくいかなくなる。事態がもつれる。&nbsp;&nbsp;「余計な口出しで話が－・れてしまった」</div></div><div><div>②&nbsp;病気が治らず長引く。悪化する。&nbsp;&nbsp;「しろうと療法では病気が－・れてしまう」</div></div><div><div>③&nbsp;心がねじける。ひねくれる。&nbsp;&nbsp;「癖づきし心は組糸をときたる如く、はても無く－・れて／暗夜&nbsp;一葉」</div></div>",
                 "y"
             ],
             "flags": 0,
@@ -1094,6 +1182,92 @@
             "guid": "ptLd{064*[",
             "newlyAdded": false,
             "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "削れる",
+                "けずれる",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t:oJfi!5(}",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "木枯し",
+                "こがらし<div>１《木を吹き枯らすものの意》秋の末から冬の初めにかけて吹く強く冷たい風。</div><div>２すりこぎをいう近世女性語</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ry0]?L&&L7",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "擂り粉木",
+                "すりこぎ<div>① すり鉢で物をすりつぶすのに用いる棒。山椒さんしようの木で作ったものがよいとされる。連木れんぎ。すりぎ。あたりぎ。&nbsp;</div><div>② 僧、特に下級の僧を軽蔑していう語。頭の形からの連想とも、味噌を擂ることからともいう。 「編笠で－の来るせはしなさ／柳多留 46」&nbsp;</div><div>③ 〔味噌をすり鉢で擂ることから〕 みそ汁。 「右の脈が頭勝ちなはもし－などは参らぬか／浄瑠璃・今宮心中 中」<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dC3>TTIs^P",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "誤り",
+                "あやまり",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sl~HR/q($<",
+            "newlyAdded": false,
+            "note_model_uuid": "53f01f92-71ac-11ea-987d-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "パクチー",
+                "ぱくちー",
+                "Coriander 香菜",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C7+N#ogiao",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "薬味",
+                "やくみ",
+                "<span style=\"font-weight: 600;\">①</span> 風味を増し，食欲を刺激するために添える野菜や香辛料。ねぎ・わさび・しょうが・唐辛子（とうがらし）など。<div><span style=\"font-weight: 600;\">②</span> 薬の原料。薬の種類。「この上は―を明かして，すひ合せて見ようか」〈狂言記・膏薬煉〉</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Lnk=qFLg.+",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
             "tags": []
         }
     ]
