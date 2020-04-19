@@ -1299,6 +1299,81 @@
             "newlyAdded": false,
             "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "集う",
+                "つどう",
+                "",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "Ci*GrDjg@;",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "削る",
+                "けずる",
+                "<span style=\"font-weight: 600;\">①</span> （刃物・やすりなどで）物の表面をそぎ取る。「ナイフでえんぴつを―・る」「出っぱった部分をやすりで―・る」<div><span style=\"font-weight: 600;\">②</span> 全体の中から一部分をなくす。減らす。「予算を―・る」</div><div><span style=\"font-weight: 600;\">③</span> 取り去る。「項目を―・る」「リストから名前を―・る」</div><div><span style=\"font-weight: 600;\">④</span> （官吏の名を記した木簡の表面を削って名前を抹消したことから）官職を罷免する。「遂に御簡―・られ」〈源氏物語•須磨〉</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yX8D325?+o",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "目処",
+                "めど",
+                "目あと、目標、見当<div>目処が付く</div><div>目処が付ける</div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jDLS:}g~uB",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "よきせぬ",
+                "予期せぬ",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E88&|latof",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "浸る",
+                "ひたる",
+                "<span style=\"font-weight: 600;\">①</span> 物の全体が水や湯の中にはいる。つかる。「肩まで湯に―・る」<div><span style=\"font-weight: 600;\">②</span> ある心理状態・境地にはいりきる。「しばし王侯貴族の気分に―・る」「過去の思い出に―・る」</div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "EPo2t1/J5W",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
         }
     ]
 }
