@@ -1374,6 +1374,111 @@
             "newlyAdded": false,
             "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "妬く",
+                "やく",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QE$@(.o79p",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "閃く",
+                "ひらめく",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Hyt+8o5Czt",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "剃る",
+                "そる",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nBshTxwrH5",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "仇する・寇する",
+                "あだする",
+                "① 危害を加える。「家に―・する敵」〈婦系図•鏡花〉<div>② 敵対する。はむかう。「王は外道に党（かたちわ）へり。其れ―・す可けむや」〈大唐西域記•長寛点〉</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xaVjlKz%/A",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "仇なす",
+                "<span style=\"color: rgb(26, 26, 26);\">あだなす</span>",
+                "<span style=\"color: rgb(26, 26, 26);\">敵対したり害を与えたりする。あだをなす。</span>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "o,dDuIrhgD",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "威張り散らす",
+                "いばりちらす",
+                "むやみに威張る。だれにでもえらそうな態度をとる。",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "cLGs(WW1kP",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "朽木",
+                "くつき",
+                "",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j,rx|kuGW`",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
         }
     ]
 }
