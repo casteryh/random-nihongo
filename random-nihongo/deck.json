@@ -1479,6 +1479,36 @@
             "newlyAdded": false,
             "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "償う",
+                "つぐなう",
+                "<span style=\"font-weight: 600;\">①</span> 埋め合わせをする。特に，弁償する。「それで家の方の経済は，収支―・ふのかい」〈それから•漱石〉「友達ノ借金ヲ―・ウ」〈和英語林集成〉<div><span style=\"font-weight: 600;\">②</span> 罪やあやまちの埋め合わせをする。「刑に服して罪を―・う」</div>",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "y|Lq9m(^{|",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "償い",
+                "つぐない",
+                "償うこと",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N9#!*M)aa<",
+            "newlyAdded": false,
+            "note_model_uuid": "1739facc-7e1e-11ea-a028-acde48001122",
+            "tags": []
         }
     ]
 }
